@@ -4,8 +4,6 @@ var obj = { prop: 1}
 
 var newObj = Object.assign({}, obj)
 
-var newObj = destructivelyDeleteFromObjectByKey(obj, 'prop');
-
 function updateObjectWithKeyAndValue(object, key, value){
   return Object.assign({}, obj, {[key]: value})
 }
