@@ -1,4 +1,4 @@
-var recipes = new Object({key: 'value'})
+var recipes = new Object({})
 
 var obj = { prop: 1}
 
